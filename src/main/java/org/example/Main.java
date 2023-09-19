@@ -9,12 +9,13 @@ public class Main {
         customerMap.put("name", "大和");
         customerMap.put("age", "35");
         customerMap.put("birthPlace", "福岡県");
+        customerMap.put("height", "172");
 
         System.out.println(customerMap);
         for (Map.Entry<String, String> customerInfo : customerMap.entrySet()) {
             System.out.println(customerInfo);
         }
-//        System.out.println(customerMap.get(1).length()); //Mapにindexが無いので値はnullとなり長さを戻せない
+        System.out.println(customerMap.get(1).length()); //Mapにindexが無いので値はnullとなり長さを戻せない
     }
 }
 
